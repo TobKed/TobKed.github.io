@@ -71,6 +71,11 @@
   background-image: url("../icons/youtube-square.svg");
 }
 
+.pen {
+  background-image: url("../icons/pen-square-solid.svg");
+}
+
+
 .icon:hover {
   opacity: 0.8;
 }
