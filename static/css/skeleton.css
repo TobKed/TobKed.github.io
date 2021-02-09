@@ -51,8 +51,7 @@
   background-size: 100% auto;
   display: block;
   float: left;
-  margin-left: 20px;
-  margin-top: 3px;
+  vertical-align:middle;
 }
 
 .mail {
@@ -277,9 +276,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  color: black;
+  background-color: transparent;
+  border-color: transparent; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -290,9 +289,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: black;
+  background-color: #ffffff;
+  border-color: transparent; }
 
 
 /* Forms
@@ -535,4 +534,40 @@ hr {
   }
 
 
+}
+
+.custom-button {
+  padding: 0 5px;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+}
+
+.custom-button:focus,.custom-button:hover {
+  color: black;
+  background-color: #ffffff;
+  border-color: transparent;
+}
+
+.custom-button-text {
+  float: right;
+  padding: 0 6px;
+}
+
+a.custom-link:link,
+a.custom-link:visited {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a.custom-link:hover,
+a.custom-link:active {
+  color: black;
+  text-decoration: underline;
+  background-color: white;
 }
