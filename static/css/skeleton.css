@@ -26,7 +26,7 @@
 */
 
 .left-column {
-  background-image: url("../images/photo.jpg");
+  background-image: url("../images/photo-jk.jpg");
   height:270px;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -505,7 +505,7 @@ hr {
 
 @media screen and (max-width: 550px) {
   body {
-    background: #FCFF00
+    background: #ffd747
   }
   .left-column {
     background-color: #ffffff;
