@@ -26,7 +26,7 @@
 */
 
 .left-column {
-  background-image: url("../images/photo-jk.jpg");
+  background-color: #ffd747;
   height:270px;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@ hr {
     background: #ffd747
   }
   .left-column {
-    background-color: #ffffff;
+    background-image: url("../images/photo-jk-small.jpg");
   }
   h5 {
     font-size: 1.6rem;
@@ -533,7 +533,18 @@ hr {
     margin-top: 5.5rem
   }
 
+}
 
+@media (min-width: 551px) and (max-width: 1600px) {
+  .left-column {
+    background-image: url("../images/photo-jk-medium.jpg");
+  }
+}
+
+@media (min-width: 1601px) {
+  .left-column {
+    background-image: url("../images/photo-jk-big.jpg");
+  }
 }
 
 .custom-button {
