@@ -54,6 +54,10 @@
   vertical-align:middle;
 }
 
+.icon:hover {
+  opacity: 0.8;
+}
+
 .mail {
   background-image: url("../icons/envelope-square.svg");
 }
@@ -74,10 +78,10 @@
   background-image: url("../icons/pen-square-solid.svg");
 }
 
-
-.icon:hover {
-  opacity: 0.8;
+.medium {
+  background-image: url("../icons/medium-brands.svg");
 }
+
 
 .credit {
   position: absolute;
