@@ -66,6 +66,10 @@
   background-image: url("../icons/linkedin.svg");
 }
 
+.gcp {
+  background-image: url("../icons/gcp-square.svg");
+}
+
 .github {
   background-image: url("../icons/github-square.svg");
 }
