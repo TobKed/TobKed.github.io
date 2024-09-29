@@ -52,6 +52,7 @@
   display: block;
   float: left;
   vertical-align:middle;
+  background-repeat: no-repeat;
 }
 
 .icon:hover {
@@ -84,6 +85,10 @@
 
 .medium {
   background-image: url("../icons/medium-brands.svg");
+}
+
+.credly {
+  background-image: url("../icons/credly-brands.svg");
 }
 
 
